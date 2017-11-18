@@ -1,0 +1,73 @@
+*{
+  font-family: Helvetica;
+}
+
+img{
+  text-align: center;
+}
+
+h1{
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+h2{
+font-size: 32px;
+font-weight: bold;
+
+}
+
+h3{
+  font-size: 23px;
+font-weight: bold;
+
+}
+
+p{
+
+}
+
+/* Classes */
+
+.header{
+  background-image: url(resources/the-flatiron-building.png);
+background-position: center;
+text-align: center;
+}
+
+.upnav{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.process{
+  text-align: center;
+}
+
+.design{
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(resources/the-flatiron-building.png);
+text-align: center;
+}
+
+.identify{
+  text-align: center;
+}
+
+.understand{
+  text-align: center;
+}
+.execute{
+  text-align: center;
+}
+
+.footer{
+    background-color: dimgray;
+    font-size: 11px;
+    color: white;
+    text-align:
+}
