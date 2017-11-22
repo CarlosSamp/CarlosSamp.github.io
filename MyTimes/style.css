@@ -1,0 +1,202 @@
+body{
+margin: 0;
+}
+
+a{
+  color: black;
+}
+/*Header*/
+
+header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 100px;
+display: flex;
+overflow: scroll;
+position: fixed;
+border-bottom: 2px solid black;
+z-index: 1;
+background-color: white;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-shrink: 0;
+width: 50%;
+}
+.logo span{
+font-weight: bold;
+  margin: 4px;;
+  color: MediumAquamarine;
+  text-align: center;
+  align-items: center;
+
+}
+nav{
+  display: inline-block;
+align-content: center;
+}
+
+nav span{
+  color: black;
+  text-decoration: underline;
+  text-align: left;
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  align-items: center;
+align-content: center;
+flex-shrink: 0;
+}
+
+.content{
+  padding-top: 120px;
+  display: flex;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+.column{
+  margin-right: 30px;
+}
+/*column large lead-story*/
+
+.column.large {
+  width: 630px;
+flex-shrink: 2;
+flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+ .lead-story{
+
+
+}
+
+.lead-story .image-content {
+  background-image: url(./Resources/MainStory.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  flex-shrink: 2;
+}
+
+/*image-content*/
+
+.image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+/*column large stories*/
+ .stories{
+display: flex;
+ }
+
+ .fallseason{
+   background-image: url(./resources/fallseason.png);
+ }
+
+ .hipstercameraman{
+   background-image: url(./Resources/HipsterCameraman.png);
+ }
+
+/*Story*/
+
+.story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/*column medium*/
+
+.column.medium {
+  width: 400px;
+  display:flex;
+  flex-direction: column;
+  position: static;
+  flex-shrink: 0;
+}
+
+.cat-ceo{
+  background-image: url(./Resources/CatCeo.png);
+}
+
+/*column small*/
+
+.column.small {
+  width: 240px;
+display: flex;
+flex-direction: column;
+flex-shrink: 0;
+}
+
+.cookie{
+  background-image: url(./Resources/cookie.png);
+background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 180px;
+  margin-top: 15px;
+
+}
+
+.newsbites li{
+  background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    padding: 4px 2px;
+}
+.newsbites h3{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*footer*/
+
+footer{
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+height: 225px;
+background-color: MediumAquamarine;
+margin: auto;
+font-family: Verdana;
+font-size: 12px;
+}
+
+footer .title{
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.copywright{
+  margin: 0 auto;
+  padding: 5px auto;
+}
