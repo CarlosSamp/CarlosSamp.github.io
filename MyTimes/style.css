@@ -107,7 +107,7 @@ display: flex;
  }
 
  .fallseason{
-   background-image: url(./resources/fallseason.png);
+   background-image: url(./Resources/FallSeason.png);
  }
 
  .hipstercameraman{
@@ -146,7 +146,7 @@ flex-shrink: 0;
 }
 
 .cookie{
-  background-image: url(./Resources/cookie.png);
+  background-image: url(./Resources/Cookie.png);
 background-position: center;
   display: flex;
   flex-direction: column;
