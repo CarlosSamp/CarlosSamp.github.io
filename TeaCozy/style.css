@@ -1,0 +1,147 @@
+body{
+  margin-top: 0px;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  color: seashell;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center;
+  flex-grow: 0;
+}
+
+a{
+  color: seashell;
+}
+
+/*Header*/
+
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  margin-top: 0px;
+overflow: scroll;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav{
+text-align: right;
+font-weight: bold;
+flex-grow: 1;
+display: block;
+margin-right: 20px;
+}
+
+nav span{
+display: inline-block;
+padding: 20px 10px;
+}
+
+.main{
+  padding-top: 70px;
+width: 1200px;
+  margin: 0;
+  overflow: scroll;
+  align-content: center;
+  color: seashell;
+  display: block;
+}
+
+.flex-container{
+  display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+
+/*Mission*/
+
+#mission{
+      background-image: url(./resources/img-mission-background.jpg);
+      height: 700px;
+}
+
+#mission .content{
+  margin: auto;
+background-color: black;
+width: 1200px;
+padding: 10px;
+text-align: center;
+}
+
+
+h2, h4{
+  margin: 0;
+  padding: 10px;
+}
+
+
+/*Tea of the Month*/
+
+#store{
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  align-content: center;
+}
+
+
+.teatitle{
+display: block;
+justify-content: center;
+width: 1000px;
+text-align: center;
+}
+
+.tea img{
+  display: block;
+  height: 200px;
+  width: 300px;
+  align-content: center;
+  padding: 10px 25px 0px 25px;
+}
+.tea span{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+/*Locations*/
+
+#locations{
+  text-align: center;
+  height: 500px;
+  background-image: url(./resources/img-locations-background.jpg);
+}
+
+.adress{
+  display: block;
+  margin: 15px 40px;
+  width: 300px;
+  text-align: center;
+  align-content: center;
+  background-color: black;
+}
+
+.adress p{
+  margin: 50px auto;
+}
+
+/*Footer*/
+
+.copywright{
+  margin-top: 30px;
+  font-size:
+}
