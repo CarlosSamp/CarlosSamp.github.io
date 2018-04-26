@@ -1,0 +1,64 @@
+header{
+  position: relative;
+background-color: white;
+  width: 100%;
+  
+}
+main{
+position: inherit;
+
+}
+
+h1{
+  text-align: center;
+}
+
+#navbarHeader{
+  color: white;
+}
+.jumbotron {
+
+    margin-bottom: 0px;
+    background-image: url(../images/IMG_0778.jpg);
+    background-position: 40% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 50%;
+justify-content: flex-end;
+  }
+
+.jumbotroncontainer{
+  margin-top: 500px;
+}
+
+@media only screen and (min-width: 768px)
+{
+.col-md-4{max-width: 400px;}
+}
+
+@media only screen and (max-width: 320px)
+{
+.col-md-4{max-width: 325px;}
+}
+
+.col-md-4{
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: 350px;
+}
+img{
+  image-resolution: from-image;
+}
+.container{
+  justify-content: center;
+}
+
+.row{
+  justify-content: center;
+}
+
+.card-text{
+
+}
