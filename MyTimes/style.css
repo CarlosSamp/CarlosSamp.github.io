@@ -4,6 +4,8 @@ margin: 0;
 
 a{
   color: black;
+  text-decoration: none;
+  padding: 0px 2px 0px 2px;
 }
 /*Header*/
 
@@ -200,4 +202,59 @@ footer .title{
 .copywright{
   margin: 0 auto;
   padding: 5px auto;
+}
+
+//*--Main Navigation--*/
+
+.mainnavlist{
+  background-color: grey;
+
+}
+.mainnavlist a:link, a:visited {
+  background-color: white;
+  color: black;
+
+  border-radius: 0.2em;
+}
+
+.mainnavlist a:active,  a:hover{
+  background-color: black;
+  color: white;
+
+  border-radius: 0.2em;
+}
+
+a{
+padding: 0px 2px 0px 2px;
+text-decoration: none;
+}
+
+.navlist{
+  display: inline;
+  list-style-type:none;
+
+}
+
+.mainnavlist nav {
+  text-align:center;
+
+
+}
+
+.mainnavlist nav li{
+padding: 2px;
+  display: inline-flex;
+font-size: 1em;
+color: white;
+bottom: 2px;
+
+}
+
+.mainnavlist nav ul{
+  height: 40px;
+  margin: 0px 10px;
+  padding-right: 50%;
+
+  padding-top: 2%;
+
 }

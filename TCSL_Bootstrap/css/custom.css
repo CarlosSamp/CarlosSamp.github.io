@@ -1,8 +1,8 @@
 header{
-  position: relative;
+
 background-color: white;
   width: 100%;
-  
+
 }
 main{
 position: inherit;
@@ -19,7 +19,7 @@ h1{
 .jumbotron {
 
     margin-bottom: 0px;
-    background-image: url(../images/IMG_0778.jpg);
+
     background-position: 40% 35%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,6 +27,15 @@ h1{
     min-height: 50%;
 justify-content: flex-end;
   }
+
+.home{
+  background-image: url(../images/IMG_1278.jpg);
+}
+.travel{
+  background-image: url(../images/calanque/IMG_0129.jpg);
+max-height: 70%;
+    }
+
 
 .jumbotroncontainer{
   margin-top: 500px;
@@ -61,4 +70,14 @@ img{
 
 .card-text{
 
+}
+
+.list-inline{
+  display: inline-flex;
+  padding-right: 1em;
+}
+
+.list-inline li{
+
+  padding-right: 1em;
 }
