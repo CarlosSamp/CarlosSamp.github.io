@@ -6,6 +6,12 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="shopping-cart.css">
 
   <title>Recycling</title>
 
@@ -178,7 +184,7 @@
 
           Zu guter Letzt landen immer noch viele wertvolle Rohstoffe auf dem Müll. Darunter Edelmetalle wie Gold oder Palladium. Würden wir all unsere alten Elektrogeräte beim Händler oder am Recyclinghof abgeben könnten viele Metalle zurück gewonnen und wiederverwertet werden. Noch besser ist es funktionsfähige Geräte die wir nicht mehr haben möchten zu verschenken oder zu verkaufen anstatt sie zu verschrotten. Auch Reparaturen verhindern das immer mehr Rohstoffe aus der Erde geholt werden. Das wäre ein verantwortungsbewusster Umgang - nicht nur mit Rohstoffen.
         </p>
-<p>Quelle: <a href="https://www.verbraucherzentrale.nrw/wissen/umwelt-haushalt/nachhaltigkeit/rohstoffabbau-schadet-umwelt-und-menschen-11537">Verbraucherzentrale</a></p>
+        <p>Quelle: <a href="https://www.verbraucherzentrale.nrw/wissen/umwelt-haushalt/nachhaltigkeit/rohstoffabbau-schadet-umwelt-und-menschen-11537">Verbraucherzentrale</a></p>
 
       </div>
       <div class="col-md-5 order-md-1">
@@ -203,7 +209,90 @@
     </div>
 
     <hr class="featurette-divider">
+    <!-- Paymentform comes here -->
 
+    <main class="page">
+      <section class="shopping-cart dark">
+        <div class="container">
+          <div class="block-heading">
+            <h2>Spenden</h2>
+            <p>Wir sind eine Non-Profit Organisation und Engagieren uns freiwillig fürs Recycling</p>
+            <p>Sie wollen das Recycling Unterstützen? Spenden Sie uns ein Betrag für weitere Projekte! </p>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <div class="items">
+                  <div class="product">
+                    <div class="row">
+                      <div class="col-md-3">
+
+                      </div>
+                      <div class="col-md-8">
+                        <div class="info">
+                          <div class="row">
+                            <div class="col-md-5 product-name">
+                              <div class="product-name">
+                                <a href="#">Mehr Sammelstellen</a>
+
+                              </div>
+                            </div>
+                            <div class="col-md-4 quantity">
+                              <label for="quantity">Menge:</label>
+                              <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                            </div>
+                            <div class="col-md-3 price">
+                              <span>1 CHF</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="row">
+                      <div class="col-md-3">
+
+                      </div>
+                      <div class="col-md-8">
+                        <div class="info">
+                          <div class="row">
+                            <div class="col-md-5 product-name">
+                              <div class="product-name">
+                                <a href="#">Längere Laufzeit</a>
+                                <div class="product-info">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4 quantity">
+                              <label for="quantity">Menge:</label>
+                              <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                            </div>
+                            <div class="col-md-3 price">
+                              <span>1 CHF</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-4">
+                <div class="summary">
+                  <h3></h3>
+                  <div class="summary-item"><span class="text">Total</span><span class="price">0 CHF</span></div>
+                  <button type="button" class="btn btn-primary btn-lg btn-block">Checkout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr>
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
@@ -219,6 +308,8 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script src="css/jquery-3.2.1.min.js"></script>
+<script src="css/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
 <script src="./css/popper.min.js"></script>
