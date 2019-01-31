@@ -30,30 +30,30 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Rohstoffe<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#rohstoffe">Rohstoffe<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Was kann Ich tun?</a>
+            <a class="nav-link" href="#sparen">Was kann Ich tun?</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Beitrag 3</a>
+            <a class="nav-link" href="#szenario">Szenario</a>
             <!--disabled für grau-->
           </li>
 
           <li class="nav-item active">
-            <a class="nav-link" href="#">Spenden</a>
+            <a class="nav-link" href="#spenden">Spenden</a>
             <!--disabled für grau-->
           </li>
 
           <li class="nav-item active">
-            <a class="nav-link" href="#">Kontakt</a>
+            <a class="nav-link" href="#kontakt">Kontakt</a>
             <!--disabled für grau-->
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
+      <!--  <form class="form-inline mt-2 mt-md-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        </form> -->
       </div>
     </nav>
   </header>
@@ -120,7 +120,7 @@
     <div class="row">
       <div class="col-lg-4">
         <img class="rounded-circle" src=".//images/recycle-iphone_zps6de1c392.png" alt="Generic placeholder image" width="140" height="140">
-        <h2>Was bewirkt Recyceln?</h2>
+        <h2 >Was bewirkt Recyceln?</h2>
         <p>
           Durch das Recyceln Ihres Edelmetalls können diese Edelmetalle wiederverwendet werden, so dass weniger neue Materialien abgebaut und verarbeitet werden müssen. Was sich letztlich positiv auf die Umwelt auswirkt.
         </p>
@@ -146,7 +146,7 @@
 
     <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider">
+    <hr id="rohstoffe" class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7">
@@ -179,12 +179,14 @@
       </div>
     </div>
 
-    <hr class="featurette-divider">
+    <hr id="sparen" class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h1>Wie wir Rohstoffe sparen können</h1>
-        <p class="lead">
+
+        <h1 >Wie wir Rohstoffe sparen können</h1>
+        <img class="featurette-image img-fluid mx-auto" src="images/laptopshop.jpeg" alt="Generic placeholder image">
+
+        <p>
 
           Wir Verbraucherinnen und Verbraucher stehen ganz am Ende dieser Kette - und doch sind wir gleichzeitig der Anfang. Denn wenn sich hierzulande viele spätestens nach einem Jahr ein neues Smartphone kaufen und funktionierende Computer, Laptops und Tablets entsorgen, dann kurbelt das die Nachfrage an. Und die Nachfrage sorgt in dem Fall nicht für bessere Bedingungen in den Abbauländern, sondern vielfach für schlechtere. Unsere Kauf- und Wegwerfkultur führt dazu, dass Raubbau an der Natur getrieben wird - und auch an den Menschen, die im Rohstoffabbau arbeiten müssen.
 
@@ -194,36 +196,30 @@
         </p>
         <p>Quelle: <a href="https://www.verbraucherzentrale.nrw/wissen/umwelt-haushalt/nachhaltigkeit/rohstoffabbau-schadet-umwelt-und-menschen-11537">Verbraucherzentrale</a></p>
 
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="featurette-image img-fluid mx-auto" src="images/laptopshop.jpeg" alt="Generic placeholder image">
-      </div>
     </div>
 
-    <hr class="featurette-divider">
+    <hr id="szenario" class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Inhalt 3<span class="text-muted"></span></h2>
-        <p class="lead">Eine Liste pro Tag</p>
-        <h3>Titel</h3>
-        <p>text</p>
-        <h3>Titel</h3>
-        <p>text</p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-      </div>
+<div class="">
+  <h1 class="">Szenariotrichter <span class="text-muted"></span></h1>
+  <br>
+  <p class="lead">Wie könnte es im Zukunft aussehen?</p>
+</div>
+
+<br>
+        <img class="featurette-image img-fluid mx-auto" style="max-height: 36em;" src="images/SzenariotrichterRecyling.jpg" alt="Generic placeholder image">
+
     </div>
 
-    <hr class="featurette-divider">
+    <hr id="spenden" class="featurette-divider">
     <!-- Paymentform comes here -->
 
 
     <section class="shopping-cart dark">
       <div class="container">
         <div class="block-heading">
-          <h1>Spenden</h1>
+          <h1 >Spenden</h1>
           <p>Wir sind eine Non-Profit Organisation und Engagieren uns freiwillig fürs Recycling.</p>
           <br>
           <p>Sie wollen das Recycling Unterstützen? Spenden Sie uns ein Betrag für weitere Projekte! </p>
@@ -314,8 +310,7 @@
 
         <div class="col-xl-8 offset-xl-2 py-5">
 
-
-          <h1>Kontakt</h1>
+          <h1 id="kontakt">Kontakt</h1>
 
           <p class="lead">Haben Sie Ideen oder Anliegen? Kontaktieren Sie Uns!</p>
 

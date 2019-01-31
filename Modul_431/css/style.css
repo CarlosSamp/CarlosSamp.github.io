@@ -26,30 +26,77 @@ body {
 }
 
 /* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 38em;
-  background-color: #777;
 
-}
 .carousel-item > img {
   position: absolute;
-
   top: 0;
   left: 0;
-
 height: 30rem;
 }
+
 .carousel-inner img {
   margin: auto;
   width: 100%;
-  height: 38em;
+  height: 36em;
 
 }
+
+.carousel-item {
+  height: 36em;
+  background-color: #777;
+
+}
+
 .carousel-caption{
   color: white;
   text-shadow: 3px 3px 5px #000000;
 }
 
+/*media 425px*/
+
+@media (max-width: 425px){
+.carousel-item {
+  height: 22em;
+  background-color: #777;
+}
+
+.carousel-inner img {
+  margin: auto;
+  width: 100%;
+  height: 22em;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+height: 22rem;
+}
+
+}
+
+/*media 4K*/
+
+@media (min-width: 1440px){
+.carousel-item {
+  height: 58em;
+  background-color: #777;
+}
+
+.carousel-inner img {
+  margin: auto;
+  width: 100%;
+  height: 58em;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+height: 58rem;
+}
+
+}
 
 
 /* MARKETING CONTENT
